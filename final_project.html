@@ -39,19 +39,19 @@
             <br/>
             <br/>
             <h2>Video</h2>
-            <video width="608" height="342" controls>
+            <video width="800" height="450" controls>
             <source src="bev-temp.mp4" type="video/mp4">
             </video>
             </p>   
             <br/> 
             <h2>Code</h2>
             <pre>
-#include <OneWire.h>
+#include &lt;<OneWire.h &gt;>
 
-#define TEMP_PROBE 8 // set temperature probe pin to 8
-#define RED_PIN 9    // set temper
-#define GREEN_PIN 10
-#define BLUE_PIN 11
+#define TEMP_PROBE 8    // set temperature probe pin to 8
+#define RED_PIN 9       // set red LED pin
+#define GREEN_PIN 10    // set green LED pin
+#define BLUE_PIN 11     // set blue LED pin
 
 int blue = 0; 
 int red = 0;
