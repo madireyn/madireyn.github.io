@@ -45,7 +45,15 @@
             </p>  
             <br/>
             <h2>Setup</h2> 
-            <img src="fp-6.JPG" height=400></a>
+            <img src="fp-6.JPG" height=400></a>            
+            </br>
+            In order to execute this setup, the first thing to do is to set up the RGB LED,
+            using 330 Ω resistors for the red, green, and blue pins, and connecting the LED's GND
+            pin to ground (-) on the breadboard. Then, separately set up the circuit for the temperature
+            probe using jumper wires and the 10 k Ω resistor. Finally, using the OneWire library code,
+            collect the temperature using the probe and dynamically use the temperature values (that can be
+            seen using Serial Monitor) to control the color of the RGB LED, with red indicating hot and blue indicating cool.
+            </br>
             <br/>
             <h2>Materials</h2> 
             <ul>
